@@ -1,0 +1,92 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.first {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: -1;
+    background-image: url(/img/valley.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.second {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255,255,255,.2);
+    position: fixed;
+    top: 0;
+    z-index: -1;
+    background-image: url(http://www.transparenttextures.com/patterns/natural-paper.png);
+}
+
+section {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.logo {
+    width: 100%;
+    height: 250px;
+    margin: 0 auto;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.content {
+    padding: 20px 120px;
+    background-color: rgba(255,255,255,.5);
+    border-left: 3px solid #fff;
+    border-right: 3px solid #fff;
+}
+
+h1 {
+    font-family: 'Convergence', sans-serif;
+    font-size: 100px;
+    margin: 0;
+}
+
+p {
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+}
+
+@media (max-width: 890px) {
+    .content {
+        padding: 15px 80px;
+    }
+}
+@media (max-width: 650px) {
+    .content {
+        padding: 10px 40px;
+    }
+    h1 {
+        font-size: 60px;
+    }
+    p {
+        font-size: 14px;
+    }
+}
+@media (max-width: 500px) {
+    .logo {
+        height: 200px;
+    }
+    .content {
+        padding: 5px 20px;
+    }
+    h1 {
+        font-style: 30px;
+    }
+    p {
+        font-size: 12px;
+    }
+}
