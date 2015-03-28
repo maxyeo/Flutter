@@ -2,14 +2,14 @@
     font-family: 'Angelina';
     font-style: normal;
     font-weight: 400;
-    src: local('Angelina'), url(fonts/angelina.ttf);
+    src: local('Angelina'), url(fonts/angelina.TTF);
 }
 
 @font-face {
     font-family: 'Freight';
     font-style: normal;
     font-weight: 100;
-    src: local('freight'), url(fonts/FreightSansBookItalic.ttf);
+    src: local('freight'), url(fonts/FreightSansBookItalic.TTF);
 }
 
 /* latin-ext */
