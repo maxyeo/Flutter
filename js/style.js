@@ -12,6 +12,6 @@ function sizeitup() {
   if (bodyw > 610) {
     $(".top").css("height",bodyh);
   } else {
-    $(".top").css("height","inherit");
+    $(".top").css("height","auto");
   }
 }
